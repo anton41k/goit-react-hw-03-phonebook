@@ -1,0 +1,18 @@
+.filter_label {
+  display: flex;
+  flex-direction: column;
+
+  width: 290px;
+
+  margin: 0 auto;
+
+  color: rgb(55, 55, 63);
+  font-weight: 700;
+}
+
+.filter_input {
+  margin: 4px 0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(131, 126, 126);
+}

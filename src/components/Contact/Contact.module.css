@@ -1,0 +1,17 @@
+.del_btn {
+  width: 50px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(121, 170, 137);
+}
+
+.del_btn:hover {
+  background-color: rgb(252, 159, 159);
+}
+
+.contact_checkbox {
+  margin: 4px 3px;
+}

@@ -1,0 +1,23 @@
+.contact_list {
+  padding: 5px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 5px;
+  width: 365px;
+}
+
+.contact_item {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 17px repeat(2, 1fr) 55px;
+
+  padding: 2px 8px;
+}
+
+.contact_item_bgc:nth-child(odd) {
+  background-color: rgba(182, 174, 174, 0.644);
+}
+
+.contact_item_send {
+  background-color: rgba(135, 211, 135, 0.644);
+}
